@@ -30,3 +30,12 @@
   left: 15px;
   bottom: 15px;
 }
+.nav__notification2 {
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-color: rgb(255, 99, 71);
+  border-radius: 50%;
+  top: -13px;
+  right: -7px;
+}
