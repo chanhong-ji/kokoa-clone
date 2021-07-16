@@ -13,7 +13,7 @@
   align-items: center;
 }
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
 }
 .user-component__avatar {
   width: 70px;
@@ -44,4 +44,7 @@
 }
 .user-component__title--not-bold {
   font-weight: 400;
+}
+.user-component__time {
+  margin-bottom: 10px;
 }
