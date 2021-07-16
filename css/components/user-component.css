@@ -3,14 +3,12 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
 .user-component__column:nth-child(2) {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.3);
   font-weight: 600;
   align-items: center;
 }
@@ -31,7 +29,7 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.4);
 }
 .user-component__avatar--sm {
