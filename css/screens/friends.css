@@ -4,9 +4,10 @@
   align-items: center;
   justify-content: center;
   background-color: #fafafa;
+  font-size: 18px;
   padding: 10px 0;
   margin-bottom: 10px;
-  font-size: 18px;
+  margin-top: -10px;
 }
 #friends-display-link span {
   margin-right: 5px;
