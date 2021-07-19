@@ -3,3 +3,9 @@
   flex-direction: column;
   align-items: flex-end;
 }
+.screen-header__icons span:last-child {
+  position: relative;
+}
+.nav__notification2--chats {
+  top: -7px;
+}
