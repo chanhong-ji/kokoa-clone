@@ -1,3 +1,6 @@
+.screen-header__title--find {
+  text-decoration: wavy underline var(--third-color);
+}
 .screen-header__icons span {
   position: relative;
 }
@@ -18,8 +21,8 @@
   margin-top: 18px;
 }
 .recommended-friends {
-  border-top: var(--main-border);
-  border-bottom: var(--main-border);
+  border-top: 1px dashed var(--first-color);
+  border-bottom: 1px dashed var(--first-color);
   padding: 25px 0;
   margin: 25px 0;
 }
@@ -39,6 +42,9 @@
   justify-content: space-between;
   opacity: 0.8;
   margin-bottom: 25px;
+}
+.open-chat__title {
+  width: 60%;
 }
 .open-chat__header span {
   color: var(--grey-text);
@@ -125,4 +131,7 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+.nav--find {
+  border-top: 3px solid var(--second-color);
 }

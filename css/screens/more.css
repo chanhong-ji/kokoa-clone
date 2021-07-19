@@ -1,9 +1,16 @@
 .more-screen .icon-row {
   margin-top: 35px;
+  background-color: rgb(0, 153, 154, 0.9);
+  border-radius: 30px;
+  box-shadow: 0 3px 50px 0 teal;
+  padding: 10px 30px;
+}
+.icon-row__icon--more {
+  color: white;
 }
 .more-suggestions {
   margin-top: 50px;
-  border-top: var(--main-border);
+  border-top: 1px solid var(--third-color);
   padding-top: 40px;
 }
 .more-suggestions__title {
@@ -34,4 +41,10 @@
 }
 .more-suggestions__icon-text {
   color: var(--grey-text);
+}
+.user-component__subtitle i {
+  margin-left: 4px;
+}
+.nav--more {
+  border-top: 2px solid var(--second-color);
 }

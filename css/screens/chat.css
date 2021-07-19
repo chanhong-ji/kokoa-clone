@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background: linear-gradient(to right bottom, pink, skyblue);
   height: 500vh;
 }
 #chat-screen .alt-header {
@@ -11,10 +11,12 @@
 #chat-screen .status-bar {
   z-index: 2;
 }
-
+#chat-screen .alt-header {
+  box-shadow: 0px 0px 30px -5px whitesmoke;
+}
 #chat-screen .alt-header,
 #chat-screen .status-bar {
-  background-color: #abc1d1;
+  background-color: whitesmoke;
 }
 @keyframes fadeIn {
   from {
@@ -109,7 +111,7 @@
   animation: fadeInLeft 1.6s linear;
 }
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: rgb(117, 183, 238);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;

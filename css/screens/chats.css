@@ -1,3 +1,9 @@
+.screen-header--chats {
+  border-bottom: 3px dotted var(--third-color);
+}
+.screen-header__title--chats {
+  text-decoration: wavy underline var(--second-color);
+}
 .user-component__column:last-child {
   display: flex;
   flex-direction: column;
@@ -5,4 +11,7 @@
 }
 .screen-header__icons span:last-child {
   position: relative;
+}
+.nav--chats {
+  border-top: 2px solid var(--first-color);
 }
