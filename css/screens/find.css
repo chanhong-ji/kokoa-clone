@@ -104,6 +104,9 @@
   right: 10px;
   font-size: 12px;
   padding: 0 3px;
+  height: 15%;
+  width: 35%;
+  justify-content: center;
 }
 .open-post__heart-count span {
   margin-left: 5px;
