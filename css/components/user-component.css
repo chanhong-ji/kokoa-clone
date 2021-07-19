@@ -19,7 +19,6 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border: 1px solid black;
   border-radius: 30px;
   margin-right: 20px;
 }
@@ -30,7 +29,7 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 500;
   color: rgba(0, 0, 0, 0.4);
 }
 .user-component__avatar--sm {
