@@ -1,9 +1,6 @@
 .screen-header__icons span {
   position: relative;
 }
-.nav__notification2--find {
-  top: -7px;
-}
 .find-icons {
   display: flex;
   justify-content: space-between;

@@ -54,3 +54,6 @@
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
 }
+.screen-header__icons span:last-child {
+  position: relative;
+}

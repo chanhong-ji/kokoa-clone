@@ -17,3 +17,12 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+.nav__notification--header {
+  position: absolute;
+  height: 6px;
+  width: 6px;
+  background-color: rgb(255, 99, 71);
+  border-radius: 50%;
+  top: -10px;
+  right: -7px;
+}
